@@ -1,0 +1,59 @@
+{
+  "name": "Zawiadomienie_o_ogloszeniu_upadlosci-Template",
+  "description": "Automatyzacja zawiadomienia o ogloszeniu upadlosci na podstawie pliku Excel z danymi użytkowników",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.Mail.Activities": "[1.10.4]",
+    "UiPath.System.Activities": "[21.4.0]",
+    "UiPath.UIAutomation.Activities": "[21.4.3]",
+    "UiPath.Word.Activities": "[1.6.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.3.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "64740b1f-4b61-4063-8899-1b126217f571",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": true,
+  "templateProjectData": {
+    "defaultProjectDescription": "Automatyzacja zawiadomienia o ogloszeniu upadlosci na podstawie pliku Excel z danymi użytkowników",
+    "defaultProjectName": "Zawiadomienie_o_ogloszeniu_upadlosci-Template"
+  },
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
